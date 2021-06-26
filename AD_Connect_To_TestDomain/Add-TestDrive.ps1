@@ -33,10 +33,10 @@ param
         Position = 1,
         HelpMessage = 'Add IP or DNSName of your Domain Controller')]
     [Alias('creds')]
-    [System.String]$TestDC = '10.1.1.10',
+    [System.String]$TestDC = '192.168.88.5',
     [Parameter(Position = 2,
         HelpMessage = 'Specify the DN for the domain')]
-        [System.String]$TestDN = 'domain.com',
+        [System.String]$TestDN = 'sataycorp.com',
     [Parameter(Mandatory = $false,
         Position = 3,
         HelpMessage = 'Use this if you want to specify a drive variable')]
